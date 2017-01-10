@@ -1,0 +1,37 @@
+<document xmlns="http://maven.apache.org/DOCUMENT/1.0.1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/DOCUMENT/1.0.1 http://maven.apache.org/xsd/document-1.0.1.xsd"
+          outputName="maven-pdf-plugin">
+
+  <meta>
+    <title>CarbonData Documentation</title>
+    <author>The Apache CarbonData Community</author>
+  </meta>
+
+  <toc name="Table of Contents">
+    <item name="Introduction" ref='index.md'/>
+    <item name="Quick Start" ref='quick_start.md'/>
+    <item name="User Guide" ref='user_guide.md'/>
+    <item name="Overview" ref='overview.md'/>
+    <item name="Installation" ref='installation.md'/>
+    <item name="Configuring CarbonData" ref='configuration.md'/>
+    <item name="Using CarbonData" ref='using_carbondata.md'/>
+    <item name="Data Management" ref='data_management.md'/>
+    <item name="DDL" ref='ddl.md'/>
+    <item name="DML" ref='dml.md'/>
+    <item name="Useful Tips" ref='useful_tips.md'/>
+    <item name="Use Cases" ref='use_cases.md'/>
+    <item name="Troubleshooting" ref='troubleshooting.md'/>
+    <item name="FAQs" ref='faq.md'/>
+  </toc>
+
+  <cover>
+    <!--<companyLogo>/home/knoldus/pdfGenerator/src/site/projectLogo/ApacheLogo.png</companyLogo>-->
+    <coverTitle>Apache CarbonData</coverTitle>
+    <coverSubTitle>v. ${project.version}</coverSubTitle>
+    <coverType>Documentation</coverType>
+    <projectName>Apache CarbonData</projectName>
+    <projectLogo>/home/knoldus/pdfGenerator/src/site/projectLogo/CarbonDataLogo.png</projectLogo>
+    <companyName>The Apache Software Foundation</companyName>
+  </cover>
+</document>
